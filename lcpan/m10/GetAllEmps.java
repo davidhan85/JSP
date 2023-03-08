@@ -27,7 +27,7 @@ public class GetAllEmps extends HttpServlet {
 		 	
 			 String url="jdbc:sqlserver://localhost:1433;databaseName=jdbc;encrypt=false";
 			 String user="banana";
-			 String pwd="12345";
+			 String pwd="1234";
 			 String SQL="SELECT * from dbo.employee";
 			try {
 				Class.forName(JDBC_DRIVER);

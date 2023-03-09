@@ -32,7 +32,7 @@ public class DeleteEmp extends HttpServlet {
 		 	
 		 	 String url="jdbc:sqlserver://localhost:1433;databaseName=jdbc;encrypt=false";
 			 String user="banana";
-			 String pwd="1234";
+			 String pwd="12345";
 			 String SQL="DELETE FROM [jdbc].[dbo].[employee]"
 			 		+"WHERE empno=?"; 
 			try {
